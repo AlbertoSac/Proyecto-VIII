@@ -4,7 +4,6 @@ const ProductDetail = () => {
   return (
     <div>
       <h2>Detalles del Producto</h2>
-      {/* Aquí puedes mostrar los detalles de un producto específico */}
     </div>
   );
 }
