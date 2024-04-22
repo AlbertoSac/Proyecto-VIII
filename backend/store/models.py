@@ -8,3 +8,5 @@ class Producto(models.Model):
 
     def __str__(self):
         return self.nombre
+    class Meta:
+        db_table = 'database'
