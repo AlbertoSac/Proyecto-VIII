@@ -20,17 +20,7 @@ const ProductList = () => {
 
   return (
     <div>
-      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
-        {productList.map(product => (
-          <div key={product.id} className="product-banner" style={{ width: '350px', margin: '10px' }}>
-            <img src={coquetaImage} alt={product.nombre} style={{ maxWidth: '100%', height: 'auto' }} />
-            <div className="product-details">
-              <h3>{product.nombre}</h3>
-              <p>Precio: ${product.precio}</p>
-            </div>
-          </div>
-        ))}
-      </div>
+      <h2>Productos Disponibles</h2>
     </div>
   );
 };
