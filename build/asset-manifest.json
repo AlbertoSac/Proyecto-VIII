@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Proyecto-VIII/static/css/main.d5289b2f.css",
+    "main.js": "/Proyecto-VIII/static/js/main.790e6ebb.js",
+    "static/media/coqueta.jpeg": "/Proyecto-VIII/static/media/coqueta.f5fa9898cd138ba992ed.jpeg",
+    "index.html": "/Proyecto-VIII/index.html",
+    "main.d5289b2f.css.map": "/Proyecto-VIII/static/css/main.d5289b2f.css.map",
+    "main.790e6ebb.js.map": "/Proyecto-VIII/static/js/main.790e6ebb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5289b2f.css",
+    "static/js/main.790e6ebb.js"
+  ]
+}
