@@ -2,6 +2,8 @@
   "name": "store",
   "version": "0.1.0",
   "private": true,
+  "type": "module", 
+  "presets": ["@babel/preset-env"], 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -42,6 +44,13 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.24.5",
+    "babel-jest": "^29.7.0",
     "gh-pages": "^6.1.1"
-  }
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }  
 }
